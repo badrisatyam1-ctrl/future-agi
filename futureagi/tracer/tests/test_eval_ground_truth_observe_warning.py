@@ -270,9 +270,7 @@ def test_no_warning_until_the_ground_truth_rows_are_embedded(
     stub_cost_log,
 ):
     """An unembedded row is not injected on any path, so Observe is not the fault."""
-    _make_ground_truth(
-        eval_template, organization, workspace, embedding_status=status
-    )
+    _make_ground_truth(eval_template, organization, workspace, embedding_status=status)
 
     _run_span_eval(observation_span, custom_eval_config)
 
