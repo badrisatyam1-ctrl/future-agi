@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.36.1](https://github.com/future-agi/future-agi/compare/v1.36.0...v1.36.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* **observe:** consolidate filtering and query optimizations ([83ffe21](https://github.com/future-agi/future-agi/commit/83ffe21dbe9a692469597ebdc42e28493a271b83))
+
 ## [1.36.0](https://github.com/future-agi/future-agi/compare/v1.35.0...v1.36.0) (2026-09-08)
 
 
